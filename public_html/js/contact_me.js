@@ -50,7 +50,7 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + " Al parece el servidor de correo no esta respondiendo...</strong>Escribe directamente al correo <a href='mailto:info@grupolinage.com?Subject=Message_Me from myprogrammingblog.com;>me@example.com</a> ? Perdon por el inconveniente :(!");
+                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + " Al parece el servidor de correo no esta respondiendo...</strong> Por favor escribe directamente al correo <a href='mailto:info@grupolinage.com?Subject=Message_Me from myprogrammingblog.com;>me@example.com</a> ? Perdon por el inconveniente :(!");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
